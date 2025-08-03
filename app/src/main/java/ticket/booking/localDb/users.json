@@ -1,0 +1,45 @@
+[
+  {
+    "userId": "U001",
+    "name": "Sakir Shaikh",
+    "email": "sakir@example.com",
+    "password": "plainpassword123",
+    "hashedPassword": "$2a$10$examplehashedpassword",
+    "phoneNumber": "9876543210",
+    "registrationDate": "2025-08-01",
+    "bookedTickets": [
+      {
+        "ticketId": "TICK123",
+        "userId": "U001",
+        "source": "Mumbai",
+        "destination": "Pune",
+        "dateOfTravel": "2025-08-15",
+        "seatNumber": "S1-14",
+        "ticketStatus": "CONFIRMED",
+        "price": 350.0,
+        "paymentMethod": "UPI",
+        "bookingDate": "2025-08-01",
+        "train": {
+          "trainId": "TR001",
+          "trainNumber": "11012",
+          "trainName": "Deccan Express",
+          "source": "Mumbai",
+          "destination": "Pune",
+          "departureTime": "07:00",
+          "arrivalTime": "11:00",
+          "seats": [[0, 0, 1], [1, 1, 0]],
+          "stations": ["Mumbai", "Lonavala", "Pune"],
+          "stationArrivalTimes": {
+            "Mumbai": "07:00",
+            "Lonavala": "09:00",
+            "Pune": "11:00"
+          },
+          "trainType": "Express",
+          "totalSeats": 300,
+          "availableSeats": 120,
+          "basePrice": 350.0
+        }
+      }
+    ]
+  }
+]

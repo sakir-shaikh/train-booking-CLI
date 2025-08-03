@@ -1,0 +1,483 @@
+{
+  "trains": [
+    {
+      "trainId": "1001",
+      "trainNumber": "NE-001",
+      "trainName": "Northeast Express",
+      "source": "New York",
+      "destination": "Boston",
+      "departureTime": "08:30",
+      "arrivalTime": "12:45",
+      "seats": [
+        [1, 1, 1, 0, 1, 1, 0, 1],
+        [1, 0, 1, 1, 1, 0, 1, 1],
+        [1, 1, 0, 1, 1, 1, 1, 0],
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 0]
+      ],
+      "stations": ["New York", "New Haven", "Providence", "Boston"],
+      "stationArrivalTimes": {
+        "New York": "08:30:00",
+        "New Haven": "10:15:00",
+        "Providence": "11:45:00",
+        "Boston": "12:45:00"
+      },
+      "trainType": "EXPRESS",
+      "coachClass": "ECONOMY",
+      "totalSeats": 200,
+      "availableSeats": 45,
+      "basePrice": 85.5,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 150,
+        "business": 30,
+        "first": 20
+      },
+      "amenities": ["WIFI", "POWER_OUTLETS", "RESTROOM", "CAFE"],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-05T00:00:00Z",
+      "nextMaintenance": "2024-02-05T00:00:00Z"
+    },
+    {
+      "trainId": "1002",
+      "trainNumber": "BE-002",
+      "trainName": "Boston Express",
+      "source": "Boston",
+      "destination": "New York",
+      "departureTime": "14:15",
+      "arrivalTime": "18:30",
+      "seats": [
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1],
+        [1, 0, 1, 1, 1, 0, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 0],
+        [0, 1, 1, 1, 0, 1, 1, 1]
+      ],
+      "stations": ["Boston", "Providence", "New Haven", "New York"],
+      "stationArrivalTimes": {
+        "Boston": "14:15:00",
+        "Providence": "15:30:00",
+        "New Haven": "17:15:00",
+        "New York": "18:30:00"
+      },
+      "trainType": "EXPRESS",
+      "coachClass": "ECONOMY",
+      "totalSeats": 200,
+      "availableSeats": 38,
+      "basePrice": 92.75,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 150,
+        "business": 30,
+        "first": 20
+      },
+      "amenities": ["WIFI", "POWER_OUTLETS", "RESTROOM", "CAFE"],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-08T00:00:00Z",
+      "nextMaintenance": "2024-02-08T00:00:00Z"
+    },
+    {
+      "trainId": "2001",
+      "trainNumber": "MC-001",
+      "trainName": "Midwest Connector",
+      "source": "Chicago",
+      "destination": "Detroit",
+      "departureTime": "09:00",
+      "arrivalTime": "13:30",
+      "seats": [
+        [1, 1, 0, 1, 1, 1, 0, 1],
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 0],
+        [1, 0, 1, 1, 1, 0, 1, 1],
+        [0, 1, 1, 1, 0, 1, 1, 1]
+      ],
+      "stations": ["Chicago", "Gary", "South Bend", "Detroit"],
+      "stationArrivalTimes": {
+        "Chicago": "09:00:00",
+        "Gary": "09:45:00",
+        "South Bend": "11:30:00",
+        "Detroit": "13:30:00"
+      },
+      "trainType": "REGIONAL",
+      "coachClass": "ECONOMY",
+      "totalSeats": 150,
+      "availableSeats": 67,
+      "basePrice": 65.25,
+      "operatingDays": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 120,
+        "business": 20,
+        "first": 10
+      },
+      "amenities": ["WIFI", "POWER_OUTLETS", "RESTROOM"],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-10T00:00:00Z",
+      "nextMaintenance": "2024-02-10T00:00:00Z"
+    },
+    {
+      "trainId": "3001",
+      "trainNumber": "SE-001",
+      "trainName": "Southeast Express",
+      "source": "Atlanta",
+      "destination": "Miami",
+      "departureTime": "06:00",
+      "arrivalTime": "18:30",
+      "seats": [
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ],
+      "stations": ["Atlanta", "Jacksonville", "Orlando", "Miami"],
+      "stationArrivalTimes": {
+        "Atlanta": "06:00:00",
+        "Jacksonville": "10:30:00",
+        "Orlando": "14:45:00",
+        "Miami": "18:30:00"
+      },
+      "trainType": "EXPRESS",
+      "coachClass": "ECONOMY",
+      "totalSeats": 250,
+      "availableSeats": 189,
+      "basePrice": 145.0,
+      "operatingDays": ["MONDAY", "WEDNESDAY", "FRIDAY", "SUNDAY"],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 200,
+        "business": 35,
+        "first": 15
+      },
+      "amenities": [
+        "WIFI",
+        "POWER_OUTLETS",
+        "RESTROOM",
+        "CAFE",
+        "SLEEPING_CARS"
+      ],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-12T00:00:00Z",
+      "nextMaintenance": "2024-02-12T00:00:00Z"
+    },
+    {
+      "trainId": "4001",
+      "trainNumber": "CC-001",
+      "trainName": "California Coast",
+      "source": "Los Angeles",
+      "destination": "San Francisco",
+      "departureTime": "07:45",
+      "arrivalTime": "14:20",
+      "seats": [
+        [1, 0, 1, 1, 1, 0, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 0],
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1],
+        [1, 0, 1, 1, 1, 0, 1, 1]
+      ],
+      "stations": ["Los Angeles", "Santa Barbara", "San Jose", "San Francisco"],
+      "stationArrivalTimes": {
+        "Los Angeles": "07:45:00",
+        "Santa Barbara": "09:30:00",
+        "San Jose": "12:45:00",
+        "San Francisco": "14:20:00"
+      },
+      "trainType": "SCENIC",
+      "coachClass": "BUSINESS",
+      "totalSeats": 180,
+      "availableSeats": 23,
+      "basePrice": 120.0,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 100,
+        "business": 60,
+        "first": 20
+      },
+      "amenities": [
+        "WIFI",
+        "POWER_OUTLETS",
+        "RESTROOM",
+        "CAFE",
+        "OBSERVATION_CAR"
+      ],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-15T00:00:00Z",
+      "nextMaintenance": "2024-02-15T00:00:00Z"
+    },
+    {
+      "trainId": "4002",
+      "trainNumber": "PE-002",
+      "trainName": "Pacific Express",
+      "source": "San Francisco",
+      "destination": "Los Angeles",
+      "departureTime": "16:30",
+      "arrivalTime": "23:05",
+      "seats": [
+        [1, 1, 0, 1, 1, 1, 0, 1],
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 0],
+        [1, 0, 1, 1, 1, 0, 1, 1],
+        [0, 1, 1, 1, 0, 1, 1, 1]
+      ],
+      "stations": ["San Francisco", "San Jose", "Santa Barbara", "Los Angeles"],
+      "stationArrivalTimes": {
+        "San Francisco": "16:30:00",
+        "San Jose": "18:15:00",
+        "Santa Barbara": "21:30:00",
+        "Los Angeles": "23:05:00"
+      },
+      "trainType": "EXPRESS",
+      "coachClass": "BUSINESS",
+      "totalSeats": 180,
+      "availableSeats": 18,
+      "basePrice": 125.5,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 100,
+        "business": 60,
+        "first": 20
+      },
+      "amenities": [
+        "WIFI",
+        "POWER_OUTLETS",
+        "RESTROOM",
+        "CAFE",
+        "OBSERVATION_CAR"
+      ],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-18T00:00:00Z",
+      "nextMaintenance": "2024-02-18T00:00:00Z"
+    },
+    {
+      "trainId": "5001",
+      "trainNumber": "CP-001",
+      "trainName": "Cascade Pacific",
+      "source": "Seattle",
+      "destination": "Portland",
+      "departureTime": "10:00",
+      "arrivalTime": "13:45",
+      "seats": [
+        [1, 1, 1, 0, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 1, 0, 1],
+        [0, 1, 1, 1, 0, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1],
+        [1, 0, 1, 1, 1, 0, 1, 1]
+      ],
+      "stations": ["Seattle", "Tacoma", "Olympia", "Portland"],
+      "stationArrivalTimes": {
+        "Seattle": "10:00:00",
+        "Tacoma": "10:45:00",
+        "Olympia": "12:15:00",
+        "Portland": "13:45:00"
+      },
+      "trainType": "REGIONAL",
+      "coachClass": "ECONOMY",
+      "totalSeats": 120,
+      "availableSeats": 89,
+      "basePrice": 45.75,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 100,
+        "business": 15,
+        "first": 5
+      },
+      "amenities": ["WIFI", "POWER_OUTLETS", "RESTROOM"],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-20T00:00:00Z",
+      "nextMaintenance": "2024-02-20T00:00:00Z"
+    },
+    {
+      "trainId": "6001",
+      "trainNumber": "TE-001",
+      "trainName": "Texas Eagle",
+      "source": "Dallas",
+      "destination": "Houston",
+      "departureTime": "11:30",
+      "arrivalTime": "15:45",
+      "seats": [
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ],
+      "stations": ["Dallas", "Austin", "San Antonio", "Houston"],
+      "stationArrivalTimes": {
+        "Dallas": "11:30:00",
+        "Austin": "13:15:00",
+        "San Antonio": "14:30:00",
+        "Houston": "15:45:00"
+      },
+      "trainType": "REGIONAL",
+      "coachClass": "ECONOMY",
+      "totalSeats": 180,
+      "availableSeats": 156,
+      "basePrice": 55.0,
+      "operatingDays": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 150,
+        "business": 20,
+        "first": 10
+      },
+      "amenities": ["WIFI", "POWER_OUTLETS", "RESTROOM"],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-22T00:00:00Z",
+      "nextMaintenance": "2024-02-22T00:00:00Z"
+    },
+    {
+      "trainId": "7001",
+      "trainNumber": "LE-001",
+      "trainName": "Lake Shore Limited",
+      "source": "Chicago",
+      "destination": "New York",
+      "departureTime": "21:30",
+      "arrivalTime": "15:45",
+      "seats": [
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ],
+      "stations": ["Chicago", "Cleveland", "Buffalo", "Albany", "New York"],
+      "stationArrivalTimes": {
+        "Chicago": "21:30:00",
+        "Cleveland": "06:45:00",
+        "Buffalo": "10:30:00",
+        "Albany": "13:15:00",
+        "New York": "15:45:00"
+      },
+      "trainType": "OVERNIGHT",
+      "coachClass": "ECONOMY",
+      "totalSeats": 300,
+      "availableSeats": 267,
+      "basePrice": 180.0,
+      "operatingDays": [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 200,
+        "business": 60,
+        "first": 40
+      },
+      "amenities": [
+        "WIFI",
+        "POWER_OUTLETS",
+        "RESTROOM",
+        "CAFE",
+        "SLEEPING_CARS",
+        "SHOWER"
+      ],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-25T00:00:00Z",
+      "nextMaintenance": "2024-02-25T00:00:00Z"
+    },
+    {
+      "trainId": "8001",
+      "trainNumber": "SW-001",
+      "trainName": "Southwest Chief",
+      "source": "Chicago",
+      "destination": "Los Angeles",
+      "departureTime": "14:50",
+      "arrivalTime": "08:00",
+      "seats": [
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1]
+      ],
+      "stations": [
+        "Chicago",
+        "Kansas City",
+        "Albuquerque",
+        "Flagstaff",
+        "Los Angeles"
+      ],
+      "stationArrivalTimes": {
+        "Chicago": "14:50:00",
+        "Kansas City": "23:30:00",
+        "Albuquerque": "12:45:00",
+        "Flagstaff": "18:30:00",
+        "Los Angeles": "08:00:00"
+      },
+      "trainType": "OVERNIGHT",
+      "coachClass": "ECONOMY",
+      "totalSeats": 350,
+      "availableSeats": 298,
+      "basePrice": 250.0,
+      "operatingDays": ["MONDAY", "WEDNESDAY", "FRIDAY"],
+      "status": "ACTIVE",
+      "capacity": {
+        "economy": 250,
+        "business": 70,
+        "first": 30
+      },
+      "amenities": [
+        "WIFI",
+        "POWER_OUTLETS",
+        "RESTROOM",
+        "CAFE",
+        "SLEEPING_CARS",
+        "SHOWER",
+        "OBSERVATION_CAR"
+      ],
+      "operator": "Amtrak",
+      "lastMaintenance": "2024-01-28T00:00:00Z",
+      "nextMaintenance": "2024-02-28T00:00:00Z"
+    }
+  ]
+}

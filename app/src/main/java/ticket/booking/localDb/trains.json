@@ -1,0 +1,43 @@
+[
+  {
+    "trainId": "TR001",
+    "trainNumber": "11012",
+    "trainName": "Deccan Express",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "departureTime": "07:00",
+    "arrivalTime": "11:00",
+    "seats": [[0, 0, 1], [1, 1, 0]],
+    "stations": ["Mumbai", "Lonavala", "Pune"],
+    "stationArrivalTimes": {
+      "Mumbai": "07:00",
+      "Lonavala": "09:00",
+      "Pune": "11:00"
+    },
+    "trainType": "Express",
+    "totalSeats": 300,
+    "availableSeats": 120,
+    "basePrice": 350.0
+  },
+  {
+    "trainId": "TR002",
+    "trainNumber": "12345",
+    "trainName": "Rajdhani Express",
+    "source": "Delhi",
+    "destination": "Mumbai",
+    "departureTime": "16:00",
+    "arrivalTime": "08:00",
+    "seats": [[1, 0, 0], [0, 1, 1]],
+    "stations": ["Delhi", "Kota", "Vadodara", "Mumbai"],
+    "stationArrivalTimes": {
+      "Delhi": "16:00",
+      "Kota": "20:00",
+      "Vadodara": "04:00",
+      "Mumbai": "08:00"
+    },
+    "trainType": "Superfast",
+    "totalSeats": 400,
+    "availableSeats": 200,
+    "basePrice": 1200.0
+  }
+]

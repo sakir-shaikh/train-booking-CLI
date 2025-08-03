@@ -1,0 +1,40 @@
+#
+# Compiled class files and build artifacts
+#
+.idea/
+.gradle/
+build/
+bin/
+out/
+target/
+*.class
+
+#
+# IntelliJ IDEA
+#
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+#
+# Gradle
+#
+.gradle/
+/build/
+!/gradle/wrapper/gradle-wrapper.jar
+
+#
+# Java
+#
+*.jar
+*.war
+*.zip
+*.log
+
+#
+# Project-specific
+#
+.DS_Store
+Thumbs.db
